@@ -1,0 +1,60 @@
+package gonanogui
+
+//Holy crap this is a lot of damn info
+type Theme struct {
+	FontNormal                 int32
+	FontBold                   int32
+	FontIcons                  int32
+	IconScale                  float32
+	StandardFontSize           int32
+	ButtonFontSize             int32
+	TextBoxFontSize            int32
+	WindowCornerRadius         int32
+	WindowHeaderHeight         int32
+	WindowDropShadowSize       int32
+	ButtonCornerRadius         int32
+	TabBorderWidth             float32
+	TabInnerMargin             int32
+	TabMinButtonWidth          int32
+	TabMaxButtonWidth          int32
+	TabControlWidth            int32
+	TabButtonHorizontalPadding int32
+	TabButtonVerticalPadding   int32
+	DropShadow                 Color
+	Tansparent                 Color
+	BorderDark                 Color
+	BorderLight                Color
+	BorderMedium               Color
+	TextColor                  Color
+	DisabledTextColor          Color
+	TextColorShadow            Color
+	IconColor                  Color
+	ButtonGradientTopFocused   Color
+	ButtonGradientBotFocused   Color
+	ButtonGradientTopUnFocused Color
+	ButtonGradientBotUnFocused Color
+	ButtonGradientTopPushed    Color
+	ButtonGradientBotPushed    Color
+	WindowFillUnfocused        Color
+	WindowFillFocused          Color
+	WindowTitleUnfocused       Color
+	WindowTitleFocused         Color
+	WindowHeaderGradientTop    Color
+	WindowHeaderGradientBot    Color
+	WindowHeaderSepTop         Color
+	WindowHeaderSepBot         Color
+	WindowPopup                Color
+	WindowPopupTransparent     Color
+	CheckBoxIcon               int32
+	MessageInformationIcon     int32
+	MessageQuestionIcon        int32
+	MessageWarningIcon         int32
+	MessageAltButtonIcon       int32
+	MessagePrimaryButtonIcon   int32
+	PopupChevronRightIcon      int32
+	PopupChevronLeftIcon       int32
+	TabHeaderLeftIcon          int32
+	TabHeaderRightIcon         int32
+	TextBoxUpIcon              int32
+	TextBoxDownIcon            int32
+}
